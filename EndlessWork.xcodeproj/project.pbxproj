@@ -12,6 +12,7 @@
 		3B14C6D71F5E48C000B52C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6D51F5E48C000B52C8F /* Main.storyboard */; };
 		3B14C6D91F5E48C000B52C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6D81F5E48C000B52C8F /* Assets.xcassets */; };
 		3B14C6DC1F5E48C000B52C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6DA1F5E48C000B52C8F /* LaunchScreen.storyboard */; };
+		8D8C5192AE3E41012A622D27 /* Pods_EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		3B14C6D81F5E48C000B52C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B14C6DB1F5E48C000B52C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B14C6DD1F5E48C000B52C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.release.xcconfig"; sourceTree = "<group>"; };
+		9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.debug.xcconfig"; sourceTree = "<group>"; };
+		F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndlessWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8C5192AE3E41012A622D27 /* Pods_EndlessWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				3B14C6D01F5E48C000B52C8F /* EndlessWork */,
 				3B14C6CF1F5E48C000B52C8F /* Products */,
+				C892D74D2B4C806A81ED1D73 /* Pods */,
+				F1BE054E8903AC104EBBA4A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = EndlessWork;
 			sourceTree = "<group>";
 		};
+		C892D74D2B4C806A81ED1D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */,
+				6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1BE054E8903AC104EBBA4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B14C6E01F5E48C000B52C8F /* Build configuration list for PBXNativeTarget "EndlessWork" */;
 			buildPhases = (
+				00697CDE0C836B95065A9967 /* [CP] Check Pods Manifest.lock */,
 				3B14C6CA1F5E48C000B52C8F /* Sources */,
 				3B14C6CB1F5E48C000B52C8F /* Frameworks */,
 				3B14C6CC1F5E48C000B52C8F /* Resources */,
+				0580FB0D67B1F0A860DEB956 /* [CP] Embed Pods Frameworks */,
+				046970B13F8E198DC998EBBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00697CDE0C836B95065A9967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		046970B13F8E198DC998EBBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0580FB0D67B1F0A860DEB956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B14C6CA1F5E48C000B52C8F /* Sources */ = {
@@ -258,9 +333,11 @@
 		};
 		3B14C6E11F5E48C000B52C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EndlessWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +347,11 @@
 		};
 		3B14C6E21F5E48C000B52C8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EndlessWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +378,7 @@
 				3B14C6E21F5E48C000B52C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

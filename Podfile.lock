@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.4.0)
+  - HandyJSON (1.6.0)
+  - MBProgressHUD (1.0.0)
+  - MGJRouter (0.9.3)
+  - PromiseKit (4.1.7):
+    - PromiseKit/Foundation (= 4.1.7)
+    - PromiseKit/QuartzCore (= 4.1.7)
+    - PromiseKit/UIKit (= 4.1.7)
+  - PromiseKit/CorePromise (4.1.7)
+  - PromiseKit/Foundation (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.7):
+    - PromiseKit/CorePromise
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - HandyJSON (~> 1.6.0)
+  - MBProgressHUD (~> 1.0.0)
+  - MGJRouter (~> 0.9.0)
+  - PromiseKit (~> 4.0)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  HandyJSON: 573a148e2c649d108a8d6fbee1874c5c2d0822ca
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 811a1995b62c39bf19fdb153b85371489b1536ec
+
+COCOAPODS: 1.2.0
