@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.4.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - HandyJSON (1.6.0)
   - MBProgressHUD (1.0.0)
   - MGJRouter (0.9.3)
@@ -21,6 +24,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - FMDB
   - HandyJSON (~> 1.6.0)
   - MBProgressHUD (~> 1.0.0)
   - MGJRouter (~> 0.9.0)
@@ -31,6 +35,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   HandyJSON: 573a148e2c649d108a8d6fbee1874c5c2d0822ca
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
@@ -39,6 +44,6 @@ SPEC CHECKSUMS:
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 811a1995b62c39bf19fdb153b85371489b1536ec
+PODFILE CHECKSUM: cba0ed36f29339bbb077976d48338c776182bb09
 
 COCOAPODS: 1.2.0
