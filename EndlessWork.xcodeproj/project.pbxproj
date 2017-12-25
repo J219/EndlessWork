@@ -7,33 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B14C6D21F5E48C000B52C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14C6D11F5E48C000B52C8F /* AppDelegate.swift */; };
-		3B14C6D41F5E48C000B52C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14C6D31F5E48C000B52C8F /* ViewController.swift */; };
-		3B14C6D71F5E48C000B52C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6D51F5E48C000B52C8F /* Main.storyboard */; };
-		3B14C6D91F5E48C000B52C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6D81F5E48C000B52C8F /* Assets.xcassets */; };
-		3B14C6DC1F5E48C000B52C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B14C6DA1F5E48C000B52C8F /* LaunchScreen.storyboard */; };
-		8D8C5192AE3E41012A622D27 /* Pods_EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */; };
+		3B8A6EC81FF08F8300BE48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */; };
+		3B8A6ECA1FF08F8300BE48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */; };
+		3B8A6ECD1FF08F8300BE48D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */; };
+		3B8A6ECF1FF08F8300BE48D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ECE1FF08F8300BE48D7 /* Assets.xcassets */; };
+		3B8A6ED21FF08F8300BE48D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ED01FF08F8300BE48D7 /* LaunchScreen.storyboard */; };
+		3B8A6EE01FF08FB600BE48D7 /* EndlessWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8A6EE31FF08FB600BE48D7 /* EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; };
+		3B8A6EE41FF08FB600BE48D7 /* EndlessWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3B8A6EE11FF08FB600BE48D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B14C6C61F5E48C000B52C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8A6EDB1FF08FB600BE48D7;
+			remoteInfo = EndlessWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B8A6EE81FF08FB600BE48D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3B8A6EE41FF08FB600BE48D7 /* EndlessWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3B14C6CE1F5E48C000B52C8F /* EndlessWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B14C6D11F5E48C000B52C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B14C6D31F5E48C000B52C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B14C6D61F5E48C000B52C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B14C6D81F5E48C000B52C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B14C6DB1F5E48C000B52C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B14C6DD1F5E48C000B52C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B8A6ECC1FF08F8300BE48D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8A6ECE1FF08F8300BE48D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8A6ED11FF08F8300BE48D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B8A6ED31FF08F8300BE48D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EndlessWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndlessWork.h; sourceTree = "<group>"; };
+		3B8A6EDF1FF08FB600BE48D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.release.xcconfig"; sourceTree = "<group>"; };
 		9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.debug.xcconfig"; sourceTree = "<group>"; };
 		F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndlessWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B14C6CB1F5E48C000B52C8F /* Frameworks */ = {
+		3B8A6EC21FF08F8200BE48D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8C5192AE3E41012A622D27 /* Pods_EndlessWork.framework in Frameworks */,
+				3B8A6EE31FF08FB600BE48D7 /* EndlessWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8A6ED81FF08FB600BE48D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +79,8 @@
 		3B14C6C51F5E48C000B52C8F = {
 			isa = PBXGroup;
 			children = (
-				3B14C6D01F5E48C000B52C8F /* EndlessWork */,
+				3B8A6EDD1FF08FB600BE48D7 /* EndlessWork */,
+				3B8A6EC61FF08F8300BE48D7 /* EndlessWorkDemo */,
 				3B14C6CF1F5E48C000B52C8F /* Products */,
 				C892D74D2B4C806A81ED1D73 /* Pods */,
 				F1BE054E8903AC104EBBA4A0 /* Frameworks */,
@@ -53,20 +90,30 @@
 		3B14C6CF1F5E48C000B52C8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B14C6CE1F5E48C000B52C8F /* EndlessWork.app */,
+				3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */,
+				3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B14C6D01F5E48C000B52C8F /* EndlessWork */ = {
+		3B8A6EC61FF08F8300BE48D7 /* EndlessWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3B14C6D11F5E48C000B52C8F /* AppDelegate.swift */,
-				3B14C6D31F5E48C000B52C8F /* ViewController.swift */,
-				3B14C6D51F5E48C000B52C8F /* Main.storyboard */,
-				3B14C6D81F5E48C000B52C8F /* Assets.xcassets */,
-				3B14C6DA1F5E48C000B52C8F /* LaunchScreen.storyboard */,
-				3B14C6DD1F5E48C000B52C8F /* Info.plist */,
+				3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */,
+				3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */,
+				3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */,
+				3B8A6ECE1FF08F8300BE48D7 /* Assets.xcassets */,
+				3B8A6ED01FF08F8300BE48D7 /* LaunchScreen.storyboard */,
+				3B8A6ED31FF08F8300BE48D7 /* Info.plist */,
+			);
+			path = EndlessWorkDemo;
+			sourceTree = "<group>";
+		};
+		3B8A6EDD1FF08FB600BE48D7 /* EndlessWork */ = {
+			isa = PBXGroup;
+			children = (
+				3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */,
+				3B8A6EDF1FF08FB600BE48D7 /* Info.plist */,
 			);
 			path = EndlessWork;
 			sourceTree = "<group>";
@@ -90,17 +137,45 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3B8A6ED91FF08FB600BE48D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8A6EE01FF08FB600BE48D7 /* EndlessWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		3B14C6CD1F5E48C000B52C8F /* EndlessWork */ = {
+		3B8A6EC41FF08F8200BE48D7 /* EndlessWorkDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B14C6E01F5E48C000B52C8F /* Build configuration list for PBXNativeTarget "EndlessWork" */;
+			buildConfigurationList = 3B8A6ED61FF08F8300BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWorkDemo" */;
 			buildPhases = (
-				00697CDE0C836B95065A9967 /* [CP] Check Pods Manifest.lock */,
-				3B14C6CA1F5E48C000B52C8F /* Sources */,
-				3B14C6CB1F5E48C000B52C8F /* Frameworks */,
-				3B14C6CC1F5E48C000B52C8F /* Resources */,
-				0580FB0D67B1F0A860DEB956 /* [CP] Embed Pods Frameworks */,
-				046970B13F8E198DC998EBBB /* [CP] Copy Pods Resources */,
+				3B8A6EC11FF08F8200BE48D7 /* Sources */,
+				3B8A6EC21FF08F8200BE48D7 /* Frameworks */,
+				3B8A6EC31FF08F8200BE48D7 /* Resources */,
+				3B8A6EE81FF08FB600BE48D7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8A6EE21FF08FB600BE48D7 /* PBXTargetDependency */,
+			);
+			name = EndlessWorkDemo;
+			productName = EndlessWorkDemo;
+			productReference = 3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B8A6EDB1FF08FB600BE48D7 /* EndlessWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8A6EE51FF08FB600BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWork" */;
+			buildPhases = (
+				3B8A6ED71FF08FB600BE48D7 /* Sources */,
+				3B8A6ED81FF08FB600BE48D7 /* Frameworks */,
+				3B8A6ED91FF08FB600BE48D7 /* Headers */,
+				3B8A6EDA1FF08FB600BE48D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -108,8 +183,8 @@
 			);
 			name = EndlessWork;
 			productName = EndlessWork;
-			productReference = 3B14C6CE1F5E48C000B52C8F /* EndlessWork.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -117,12 +192,16 @@
 		3B14C6C61F5E48C000B52C8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = WangXun;
 				TargetAttributes = {
-					3B14C6CD1F5E48C000B52C8F = {
-						CreatedOnToolsVersion = 8.3.3;
+					3B8A6EC41FF08F8200BE48D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3B8A6EDB1FF08FB600BE48D7 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,119 +219,72 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B14C6CD1F5E48C000B52C8F /* EndlessWork */,
+				3B8A6EDB1FF08FB600BE48D7 /* EndlessWork */,
+				3B8A6EC41FF08F8200BE48D7 /* EndlessWorkDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B14C6CC1F5E48C000B52C8F /* Resources */ = {
+		3B8A6EC31FF08F8200BE48D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B14C6DC1F5E48C000B52C8F /* LaunchScreen.storyboard in Resources */,
-				3B14C6D91F5E48C000B52C8F /* Assets.xcassets in Resources */,
-				3B14C6D71F5E48C000B52C8F /* Main.storyboard in Resources */,
+				3B8A6ED21FF08F8300BE48D7 /* LaunchScreen.storyboard in Resources */,
+				3B8A6ECF1FF08F8300BE48D7 /* Assets.xcassets in Resources */,
+				3B8A6ECD1FF08F8300BE48D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8A6EDA1FF08FB600BE48D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		00697CDE0C836B95065A9967 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EndlessWork-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		046970B13F8E198DC998EBBB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0580FB0D67B1F0A860DEB956 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		3B14C6CA1F5E48C000B52C8F /* Sources */ = {
+		3B8A6EC11FF08F8200BE48D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B14C6D41F5E48C000B52C8F /* ViewController.swift in Sources */,
-				3B14C6D21F5E48C000B52C8F /* AppDelegate.swift in Sources */,
+				3B8A6ECA1FF08F8300BE48D7 /* ViewController.swift in Sources */,
+				3B8A6EC81FF08F8300BE48D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8A6ED71FF08FB600BE48D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3B8A6EE21FF08FB600BE48D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8A6EDB1FF08FB600BE48D7 /* EndlessWork */;
+			targetProxy = 3B8A6EE11FF08FB600BE48D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		3B14C6D51F5E48C000B52C8F /* Main.storyboard */ = {
+		3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B14C6D61F5E48C000B52C8F /* Base */,
+				3B8A6ECC1FF08F8300BE48D7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3B14C6DA1F5E48C000B52C8F /* LaunchScreen.storyboard */ = {
+		3B8A6ED01FF08F8300BE48D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B14C6DB1F5E48C000B52C8F /* Base */,
+				3B8A6ED11FF08F8300BE48D7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -353,31 +385,119 @@
 			};
 			name = Release;
 		};
-		3B14C6E11F5E48C000B52C8F /* Debug */ = {
+		3B8A6ED41FF08F8300BE48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = EndlessWork/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EndlessWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3B14C6E21F5E48C000B52C8F /* Release */ = {
+		3B8A6ED51FF08F8300BE48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = EndlessWork/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EndlessWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B8A6EE61FF08FB600BE48D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EndlessWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B8A6EE71FF08FB600BE48D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EndlessWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -393,11 +513,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B14C6E01F5E48C000B52C8F /* Build configuration list for PBXNativeTarget "EndlessWork" */ = {
+		3B8A6ED61FF08F8300BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWorkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B14C6E11F5E48C000B52C8F /* Debug */,
-				3B14C6E21F5E48C000B52C8F /* Release */,
+				3B8A6ED41FF08F8300BE48D7 /* Debug */,
+				3B8A6ED51FF08F8300BE48D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8A6EE51FF08FB600BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8A6EE61FF08FB600BE48D7 /* Debug */,
+				3B8A6EE71FF08FB600BE48D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
