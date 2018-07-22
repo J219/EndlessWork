@@ -21,7 +21,7 @@ struct EwkExtesionDictionary<Key: Hashable, Value> {
 
 extension Dictionary {
     
-    var wl: EwkExtesionDictionary<Key, Value> {
+    var ew: EwkExtesionDictionary<Key, Value> {
         return EwkExtesionDictionary<Key, Value>(self)
     }
 }

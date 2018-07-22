@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// Extend String with `ew` proxy.
 extension String: EwkExtesionable { }

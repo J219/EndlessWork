@@ -21,7 +21,7 @@ struct EwkExtesionArray<Element> {
 
 extension Array {
     
-    var wl: EwkExtesionArray<Element> {
+    var ew: EwkExtesionArray<Element> {
         return EwkExtesionArray<Element>(self)
     }
 }

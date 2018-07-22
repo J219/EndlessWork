@@ -13,8 +13,9 @@ target 'EndlessWork' do
     pod 'RxSwift',    '~> 4.0'              # RxSwift
     pod 'RxCocoa',    '~> 4.0'
 
-    # UI相关
-    pod 'MBProgressHUD', '~> 1.0.0'         # 等待框
+    # UI
+    
+    pod 'MJRefresh', '~> 3.1.15'            # 上拉下拉控件
 
 end
 

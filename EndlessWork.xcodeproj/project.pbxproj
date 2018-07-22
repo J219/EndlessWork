@@ -17,6 +17,12 @@
 		3B2B041B2104C7820067347E /* UIImage+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041A2104C7820067347E /* UIImage+ew.swift */; };
 		3B2B041D2104C7C00067347E /* RxSwift+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041C2104C7BF0067347E /* RxSwift+ew.swift */; };
 		3B2B041F2104C8000067347E /* UIView+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041E2104C8000067347E /* UIView+ew.swift */; };
+		3B2B04232104DD650067347E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04222104DD650067347E /* BaseViewController.swift */; };
+		3B2B04262104DEF10067347E /* RouterDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04252104DEF10067347E /* RouterDefines.swift */; };
+		3B2B04282104E2190067347E /* RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04272104E2190067347E /* RouterManager.swift */; };
+		3B2B042A2104E4670067347E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04292104E4670067347E /* BaseTableViewController.swift */; };
+		3B2B042C2104E4900067347E /* BaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B042B2104E4900067347E /* BaseSectionView.swift */; };
+		3B2B042E2104E49B0067347E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B042D2104E49B0067347E /* BaseTableViewCell.swift */; };
 		3B8A6EC81FF08F8300BE48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */; };
 		3B8A6ECA1FF08F8300BE48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */; };
 		3B8A6ECD1FF08F8300BE48D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */; };
@@ -65,6 +71,12 @@
 		3B2B041A2104C7820067347E /* UIImage+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ew.swift"; sourceTree = "<group>"; };
 		3B2B041C2104C7BF0067347E /* RxSwift+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+ew.swift"; sourceTree = "<group>"; };
 		3B2B041E2104C8000067347E /* UIView+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ew.swift"; sourceTree = "<group>"; };
+		3B2B04222104DD650067347E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3B2B04252104DEF10067347E /* RouterDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDefines.swift; sourceTree = "<group>"; };
+		3B2B04272104E2190067347E /* RouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterManager.swift; sourceTree = "<group>"; };
+		3B2B04292104E4670067347E /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		3B2B042B2104E4900067347E /* BaseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSectionView.swift; sourceTree = "<group>"; };
+		3B2B042D2104E49B0067347E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +152,26 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		3B2B04212104DD4E0067347E /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B04222104DD650067347E /* BaseViewController.swift */,
+				3B2B04292104E4670067347E /* BaseTableViewController.swift */,
+				3B2B042B2104E4900067347E /* BaseSectionView.swift */,
+				3B2B042D2104E49B0067347E /* BaseTableViewCell.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		3B2B04242104DEAE0067347E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B04272104E2190067347E /* RouterManager.swift */,
+				3B2B04252104DEF10067347E /* RouterDefines.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		3B8A6EC61FF08F8300BE48D7 /* EndlessWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */,
+				3B2B04242104DEAE0067347E /* Router */,
+				3B2B04212104DD4E0067347E /* MVVM */,
 				3B2B040921041D460067347E /* Category */,
 				3B8A6EDF1FF08FB600BE48D7 /* Info.plist */,
 			);
@@ -344,8 +378,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -355,8 +389,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -382,14 +416,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B042E2104E49B0067347E /* BaseTableViewCell.swift in Sources */,
 				3B2B041D2104C7C00067347E /* RxSwift+ew.swift in Sources */,
 				3B2B040D21043CB90067347E /* EwkExtesionable.swift in Sources */,
+				3B2B04232104DD650067347E /* BaseViewController.swift in Sources */,
 				3B2B040F2104C58D0067347E /* Int+ew.swift in Sources */,
+				3B2B04282104E2190067347E /* RouterManager.swift in Sources */,
 				3B2B04112104C5C40067347E /* String+ew.swift in Sources */,
 				3B2B041B2104C7820067347E /* UIImage+ew.swift in Sources */,
+				3B2B042C2104E4900067347E /* BaseSectionView.swift in Sources */,
 				3B2B04172104C7160067347E /* Data+ew.swift in Sources */,
 				3B2B04152104C6DF0067347E /* Dictionary+ew.swift in Sources */,
 				3B2B04192104C73F0067347E /* UIColor+ew.swift in Sources */,
+				3B2B042A2104E4670067347E /* BaseTableViewController.swift in Sources */,
+				3B2B04262104DEF10067347E /* RouterDefines.swift in Sources */,
 				3B2B041F2104C8000067347E /* UIView+ew.swift in Sources */,
 				3B2B04132104C6830067347E /* Array+ew.swift in Sources */,
 			);
