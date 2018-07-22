@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2B040D21043CB90067347E /* EwkExtesionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B040C21043CB90067347E /* EwkExtesionable.swift */; };
+		3B2B040F2104C58D0067347E /* Int+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B040E2104C58D0067347E /* Int+ew.swift */; };
+		3B2B04112104C5C40067347E /* String+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04102104C5C40067347E /* String+ew.swift */; };
+		3B2B04132104C6830067347E /* Array+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04122104C6830067347E /* Array+ew.swift */; };
+		3B2B04152104C6DF0067347E /* Dictionary+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04142104C6DF0067347E /* Dictionary+ew.swift */; };
+		3B2B04172104C7160067347E /* Data+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04162104C7160067347E /* Data+ew.swift */; };
+		3B2B04192104C73F0067347E /* UIColor+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04182104C73F0067347E /* UIColor+ew.swift */; };
+		3B2B041B2104C7820067347E /* UIImage+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041A2104C7820067347E /* UIImage+ew.swift */; };
+		3B2B041D2104C7C00067347E /* RxSwift+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041C2104C7BF0067347E /* RxSwift+ew.swift */; };
+		3B2B041F2104C8000067347E /* UIView+ew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B041E2104C8000067347E /* UIView+ew.swift */; };
 		3B8A6EC81FF08F8300BE48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */; };
 		3B8A6ECA1FF08F8300BE48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */; };
 		3B8A6ECD1FF08F8300BE48D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */; };
@@ -15,7 +25,8 @@
 		3B8A6EE01FF08FB600BE48D7 /* EndlessWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B8A6EE31FF08FB600BE48D7 /* EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; };
 		3B8A6EE41FF08FB600BE48D7 /* EndlessWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		630F45FC7E96CFEDF1E235E7 /* Pods_EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */; };
+		586EE5613E618E64EBBA5E4A /* Pods_EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */; };
+		B86E6D1ABBF7E401F014A014 /* Pods_EndlessWorkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37A2130F1E83EFB71609E31 /* Pods_EndlessWorkDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +54,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13BA55FDE694F96D9E3E342B /* Pods-EndlessWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.debug.xcconfig"; sourceTree = "<group>"; };
+		3B2B040C21043CB90067347E /* EwkExtesionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwkExtesionable.swift; sourceTree = "<group>"; };
+		3B2B040E2104C58D0067347E /* Int+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+ew.swift"; sourceTree = "<group>"; };
+		3B2B04102104C5C40067347E /* String+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ew.swift"; sourceTree = "<group>"; };
+		3B2B04122104C6830067347E /* Array+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ew.swift"; sourceTree = "<group>"; };
+		3B2B04142104C6DF0067347E /* Dictionary+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+ew.swift"; sourceTree = "<group>"; };
+		3B2B04162104C7160067347E /* Data+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+ew.swift"; sourceTree = "<group>"; };
+		3B2B04182104C73F0067347E /* UIColor+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ew.swift"; sourceTree = "<group>"; };
+		3B2B041A2104C7820067347E /* UIImage+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ew.swift"; sourceTree = "<group>"; };
+		3B2B041C2104C7BF0067347E /* RxSwift+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+ew.swift"; sourceTree = "<group>"; };
+		3B2B041E2104C8000067347E /* UIView+ew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ew.swift"; sourceTree = "<group>"; };
 		3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,9 +75,11 @@
 		3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EndlessWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndlessWork.h; sourceTree = "<group>"; };
 		3B8A6EDF1FF08FB600BE48D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.release.xcconfig"; sourceTree = "<group>"; };
-		9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.debug.xcconfig"; sourceTree = "<group>"; };
+		466D8207758677B8AB6F61F9 /* Pods-EndlessWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWorkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWorkDemo/Pods-EndlessWorkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9B1C1C672A0A6E508307F1 /* Pods-EndlessWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWork/Pods-EndlessWork.release.xcconfig"; sourceTree = "<group>"; };
+		C37A2130F1E83EFB71609E31 /* Pods_EndlessWorkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndlessWorkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndlessWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E72B5924A6E06C8A575C52 /* Pods-EndlessWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndlessWorkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndlessWorkDemo/Pods-EndlessWorkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8A6EE31FF08FB600BE48D7 /* EndlessWork.framework in Frameworks */,
+				B86E6D1ABBF7E401F014A014 /* Pods_EndlessWorkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630F45FC7E96CFEDF1E235E7 /* Pods_EndlessWork.framework in Frameworks */,
+				586EE5613E618E64EBBA5E4A /* Pods_EndlessWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +123,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3B2B040921041D460067347E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B040C21043CB90067347E /* EwkExtesionable.swift */,
+				3B2B041C2104C7BF0067347E /* RxSwift+ew.swift */,
+				3B2B040E2104C58D0067347E /* Int+ew.swift */,
+				3B2B04102104C5C40067347E /* String+ew.swift */,
+				3B2B04122104C6830067347E /* Array+ew.swift */,
+				3B2B04142104C6DF0067347E /* Dictionary+ew.swift */,
+				3B2B04162104C7160067347E /* Data+ew.swift */,
+				3B2B04182104C73F0067347E /* UIColor+ew.swift */,
+				3B2B041A2104C7820067347E /* UIImage+ew.swift */,
+				3B2B041E2104C8000067347E /* UIView+ew.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		3B8A6EC61FF08F8300BE48D7 /* EndlessWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */,
+				3B2B040921041D460067347E /* Category */,
 				3B8A6EDF1FF08FB600BE48D7 /* Info.plist */,
 			);
 			path = Source;
@@ -123,8 +166,10 @@
 		C892D74D2B4C806A81ED1D73 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */,
-				6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */,
+				466D8207758677B8AB6F61F9 /* Pods-EndlessWorkDemo.debug.xcconfig */,
+				F1E72B5924A6E06C8A575C52 /* Pods-EndlessWorkDemo.release.xcconfig */,
+				13BA55FDE694F96D9E3E342B /* Pods-EndlessWork.debug.xcconfig */,
+				6C9B1C1C672A0A6E508307F1 /* Pods-EndlessWork.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -133,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */,
+				C37A2130F1E83EFB71609E31 /* Pods_EndlessWorkDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,10 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8A6ED61FF08F8300BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWorkDemo" */;
 			buildPhases = (
+				BAF189F61F5840A8B5208B6D /* [CP] Check Pods Manifest.lock */,
 				3B8A6EC11FF08F8200BE48D7 /* Sources */,
 				3B8A6EC21FF08F8200BE48D7 /* Frameworks */,
 				3B8A6EC31FF08F8200BE48D7 /* Resources */,
 				3B8A6EE81FF08FB600BE48D7 /* Embed Frameworks */,
+				BB9C2FCAAC8507F9343EF899 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,7 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8A6EE51FF08FB600BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWork" */;
 			buildPhases = (
-				D222C05E57E414A5A4F578DA /* [CP] Check Pods Manifest.lock */,
+				71745F891E3F75D4A64338F6 /* [CP] Check Pods Manifest.lock */,
 				3B8A6ED71FF08FB600BE48D7 /* Sources */,
 				3B8A6ED81FF08FB600BE48D7 /* Frameworks */,
 				3B8A6ED91FF08FB600BE48D7 /* Headers */,
@@ -196,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = WangXun;
 				TargetAttributes = {
 					3B8A6EC41FF08F8200BE48D7 = {
@@ -205,6 +253,7 @@
 					};
 					3B8A6EDB1FF08FB600BE48D7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -249,7 +298,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D222C05E57E414A5A4F578DA /* [CP] Check Pods Manifest.lock */ = {
+		71745F891E3F75D4A64338F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,6 +314,56 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF189F61F5840A8B5208B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndlessWorkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9C2FCAAC8507F9343EF899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWorkDemo/Pods-EndlessWorkDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndlessWorkDemo/Pods-EndlessWorkDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -283,6 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B041D2104C7C00067347E /* RxSwift+ew.swift in Sources */,
+				3B2B040D21043CB90067347E /* EwkExtesionable.swift in Sources */,
+				3B2B040F2104C58D0067347E /* Int+ew.swift in Sources */,
+				3B2B04112104C5C40067347E /* String+ew.swift in Sources */,
+				3B2B041B2104C7820067347E /* UIImage+ew.swift in Sources */,
+				3B2B04172104C7160067347E /* Data+ew.swift in Sources */,
+				3B2B04152104C6DF0067347E /* Dictionary+ew.swift in Sources */,
+				3B2B04192104C73F0067347E /* UIColor+ew.swift in Sources */,
+				3B2B041F2104C8000067347E /* UIView+ew.swift in Sources */,
+				3B2B04132104C6830067347E /* Array+ew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,15 +435,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,15 +493,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -411,7 +536,9 @@
 		};
 		3B8A6ED41FF08F8300BE48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466D8207758677B8AB6F61F9 /* Pods-EndlessWorkDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -436,7 +563,9 @@
 		};
 		3B8A6ED51FF08F8300BE48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E72B5924A6E06C8A575C52 /* Pods-EndlessWorkDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -461,9 +590,10 @@
 		};
 		3B8A6EE61FF08FB600BE48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */;
+			baseConfigurationReference = 13BA55FDE694F96D9E3E342B /* Pods-EndlessWork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
@@ -471,7 +601,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -486,6 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxun.EndlessWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -495,9 +626,10 @@
 		};
 		3B8A6EE71FF08FB600BE48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */;
+			baseConfigurationReference = 6C9B1C1C672A0A6E508307F1 /* Pods-EndlessWork.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
@@ -505,7 +637,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
