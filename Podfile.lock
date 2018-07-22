@@ -1,49 +1,59 @@
 PODS:
-  - Alamofire (4.4.0)
+  - Alamofire (4.7.3)
+  - EndlessWork (0.0.3)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
-  - HandyJSON (1.6.0)
+  - HandyJSON (4.1.1)
   - MBProgressHUD (1.0.0)
   - MGJRouter (0.9.3)
-  - PromiseKit (4.1.7):
-    - PromiseKit/Foundation (= 4.1.7)
-    - PromiseKit/QuartzCore (= 4.1.7)
-    - PromiseKit/UIKit (= 4.1.7)
-  - PromiseKit/CorePromise (4.1.7)
-  - PromiseKit/Foundation (4.1.7):
-    - PromiseKit/CorePromise
-  - PromiseKit/QuartzCore (4.1.7):
-    - PromiseKit/CorePromise
-  - PromiseKit/UIKit (4.1.7):
-    - PromiseKit/CorePromise
-  - RxCocoa (3.2.0):
-    - RxSwift (~> 3.1)
-  - RxSwift (3.2.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
+  - Alamofire (~> 4.7)
+  - EndlessWork (from `https://github.com/J219/EndlessWork.git`)
   - FMDB
-  - HandyJSON (~> 1.6.0)
+  - HandyJSON (~> 4.1.1)
   - MBProgressHUD (~> 1.0.0)
   - MGJRouter (~> 0.9.0)
-  - PromiseKit (~> 4.0)
-  - RxCocoa (~> 3.0)
-  - RxSwift (~> 3.0)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
   - SwiftyJSON
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FMDB
+    - HandyJSON
+    - MBProgressHUD
+    - MGJRouter
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  EndlessWork:
+    :git: https://github.com/J219/EndlessWork.git
+
+CHECKOUT OPTIONS:
+  EndlessWork:
+    :commit: 19fcb99d4d68cc7c687a35c1caeecb917c2017a5
+    :git: https://github.com/J219/EndlessWork.git
+
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  EndlessWork: dd29fbb93e32cf5fb962af14a9c6cd147169c69c
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  HandyJSON: 573a148e2c649d108a8d6fbee1874c5c2d0822ca
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
-  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
-  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
-  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: cba0ed36f29339bbb077976d48338c776182bb09
+PODFILE CHECKSUM: c99e2a1c7422858d069012128a14de9b2a8fe856
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.3

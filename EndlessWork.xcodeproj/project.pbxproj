@@ -15,6 +15,7 @@
 		3B8A6EE01FF08FB600BE48D7 /* EndlessWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B8A6EE31FF08FB600BE48D7 /* EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; };
 		3B8A6EE41FF08FB600BE48D7 /* EndlessWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A6EDC1FF08FB600BE48D7 /* EndlessWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		630F45FC7E96CFEDF1E235E7 /* Pods_EndlessWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EEC51983D7F9A5083E2E /* Pods_EndlessWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630F45FC7E96CFEDF1E235E7 /* Pods_EndlessWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8A6EE51FF08FB600BE48D7 /* Build configuration list for PBXNativeTarget "EndlessWork" */;
 			buildPhases = (
+				D222C05E57E414A5A4F578DA /* [CP] Check Pods Manifest.lock */,
 				3B8A6ED71FF08FB600BE48D7 /* Sources */,
 				3B8A6ED81FF08FB600BE48D7 /* Frameworks */,
 				3B8A6ED91FF08FB600BE48D7 /* Headers */,
@@ -244,6 +247,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D222C05E57E414A5A4F578DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndlessWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B8A6EC11FF08F8200BE48D7 /* Sources */ = {
@@ -437,6 +461,7 @@
 		};
 		3B8A6EE61FF08FB600BE48D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A74F2ED14357DA0D456D6A5 /* Pods-EndlessWork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -470,6 +495,7 @@
 		};
 		3B8A6EE71FF08FB600BE48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8C3DB01AE16B1E2C83467C /* Pods-EndlessWork.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
