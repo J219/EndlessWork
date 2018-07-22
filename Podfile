@@ -21,7 +21,7 @@ end
 target 'EndlessWorkDemo' do
     
     # 测试
-    pod 'EndlessWork', :git => 'https://github.com/J219/EndlessWork.git'                       # 测试Master代码
+    pod 'EndlessWork'                       # 测试Master代码
     
 end
 
