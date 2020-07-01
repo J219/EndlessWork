@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EndlessWork"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A Framework used in MVVM project"
 
   s.homepage     = "https://github.com/J219/EndlessWork"
