@@ -23,6 +23,7 @@
 		3B2B042A2104E4670067347E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04292104E4670067347E /* BaseTableViewController.swift */; };
 		3B2B042C2104E4900067347E /* BaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B042B2104E4900067347E /* BaseSectionView.swift */; };
 		3B2B042E2104E49B0067347E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B042D2104E49B0067347E /* BaseTableViewCell.swift */; };
+		3B2B04EF210810D10067347E /* EndlessWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B04EE210810D00067347E /* EndlessWork.podspec */; };
 		3B8A6EC81FF08F8300BE48D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */; };
 		3B8A6ECA1FF08F8300BE48D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */; };
 		3B8A6ECD1FF08F8300BE48D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A6ECB1FF08F8300BE48D7 /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		3B2B04292104E4670067347E /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		3B2B042B2104E4900067347E /* BaseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSectionView.swift; sourceTree = "<group>"; };
 		3B2B042D2104E49B0067347E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		3B2B04EE210810D00067347E /* EndlessWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndlessWork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B8A6EC51FF08F8200BE48D7 /* EndlessWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8A6EC71FF08F8300BE48D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B8A6EC91FF08F8300BE48D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		3B14C6C51F5E48C000B52C8F = {
 			isa = PBXGroup;
 			children = (
+				3B2B04EE210810D00067347E /* EndlessWork.podspec */,
 				3B8A6EDD1FF08FB600BE48D7 /* Source */,
 				3B8A6EC61FF08F8300BE48D7 /* EndlessWorkDemo */,
 				3B14C6CF1F5E48C000B52C8F /* Products */,
@@ -188,10 +191,10 @@
 		3B8A6EDD1FF08FB600BE48D7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */,
 				3B2B04242104DEAE0067347E /* Router */,
 				3B2B04212104DD4E0067347E /* MVVM */,
 				3B2B040921041D460067347E /* Category */,
+				3B8A6EDE1FF08FB600BE48D7 /* EndlessWork.h */,
 				3B8A6EDF1FF08FB600BE48D7 /* Info.plist */,
 			);
 			path = Source;
@@ -326,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B04EF210810D10067347E /* EndlessWork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
